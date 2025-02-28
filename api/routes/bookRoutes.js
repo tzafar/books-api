@@ -28,4 +28,6 @@ module.exports = function (app) {
 
     app.delete('/books/:bookId', [bookController.delete_a_book]);
 
+    app.get('/hello', [bookController.hello]);
+
 };
