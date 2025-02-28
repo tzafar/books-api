@@ -43,3 +43,7 @@ exports.delete_a_book = function (req, res) {
         }
     );
 };
+
+exports.hello = function (req, res) {
+           return res.status(200).send({hello: 'world'});    
+};
